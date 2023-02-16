@@ -1,0 +1,24 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+/* ANIMATION FOR THE SIDE IMAGES  */
+.fade-anim img {
+  animation: fadeAnim 0.5s ease-out;
+}
+@keyframes fadeAnim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-item.active {
+  @apply bg-SecondaryColor text-white;
+}
